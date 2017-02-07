@@ -20,6 +20,8 @@ httpclient.py contains contributions from:
 * https://github.com/tywtyw2002
 * https://github.com/treedust
 
+Nobody was collaborated with for this assignment.
+
 But the server.py example is derived from the python documentation
 examples thus some of the code is Copyright © 2001-2013 Python
 Software Foundation; All Rights Reserved under the PSF license (GPL

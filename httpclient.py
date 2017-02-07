@@ -46,7 +46,9 @@ class HTTPClient(object):
         clientSocket.connect((host, port))
         return clientSocket
 
-    # Get the code by splitting the response and taking the first
+    # Get the code by splitting the response and taking the second item in the
+    # list, which should be the status code. If that fails, return a 404 since
+    # the site messed up.
     def get_code(self, data):
         try:
             code = int(data.split(" ")[1])
